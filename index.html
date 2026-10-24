@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Fakhri</title>  
+  <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+   <div class="container">
+    <header class="window-bar">
+      <div class="controls">
+        <div class="control red"></div>
+        <div class="control yellow"></div>
+        <div class="control green"></div>
+      </div>
+      <div class="address-bar">
+        <marquee><span>Portofolio :: Muhammad Fakhri Fadhlurahman/teknik-informatika/202443501120</span></marquee>
+      </div>
+    </header>
+    <nav class="navbar">
+      <input type="checkbox" id="navToggle" class="nav-checkbox">
+      <label for="navToggle" class="nav-toggle" aria-label="Toggle navigasi">
+        <i class="fas fa-bars nav-icon-open"></i>
+        <i class="fas fa-xmark nav-icon-close"></i>
+      </label>
+      <ul class="nav-links">
+        <li><a href="#hero"><i class="fas fa-home"></i> Beranda</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> Tentang</a></li>
+        <li><a href="#projects"><i class="fas fa-briefcase"></i> Projek</a></li>
+        <li><a href="#kontak"><i class="fas fa-envelope"></i> Kontak</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero-section" id="hero">
+      <div class="profile-info">
+        <img src="pai.png" alt="Foto Muhammad Fakhri Fadhlurahman" class="profile-image">
+        <div class="text-content">
+          <h1>Hai, Saya Muhammad Fakhri Fadhlurahman</h1>
+      
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="social-links">
+            <a href="https://instagram.com/paiii.24" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/SIRR-P" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section" id="about">
+      <h2 class="section-title">TENTANG SAYA</h2>
+      <div class="about-content">
+        <p>
+          Halo! saya Muhammad fakhri Fadhlurahman, mahasiswa semester 5 Teknik Informatika di Universitas
+          Indraprasta PGRI (unindra). Saat ini saya lagi seru-serunya mendalami Front-End Web Development mulai dari menyusun
+          struktur-struktur pakai HTML, eksperimen desain di CSS, sampai belajar dasar UI/UX. ke depannya, saya tidak bakal berhenti di tampilan luar website saja.
+          Target saya selanjutnya adalah belajar JavaScript dan sisi Back-End buat mengejar impian untuk menjadi seorang Full-Stack Developer.
+        </p>
+        <div class="about-details">
+          <div class="about-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <strong>Pendidikan</strong>
+              <span>Teknik Informatika — Universitas Indraprasta PGRI</span>
+            </div>
+          </div>
+          <div class="about-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Lokasi</strong>
+              <span>Jakarta Selatan, DKI Jakarta, Indonesia</span>
+            </div>
+          </div>
+          <div class="about-item">
+            <i class="fas fa-code"></i>
+            <div>
+              <strong>Fokus</strong>
+              <span>Full-Stack Web Dev (In progress)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase-section" id="projects">
+      <h2 class="section-title">SHOWCASE PROJECTS</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <img src="project1.png" alt="Screenshot E-Employee IDN" class="project-image-placeholder">
+          <h3>UninMart</h3>
+          <p>
+            UninMart adalah project desain UI (User Interface) aplikasi marketplace yang idenya dibikin khusus buat anak-anak kampus Unindra. Lewat prototipe ini, 
+            saya merancang alur aplikasinya dari awal—mulai dari halaman login, etalase kategori jajanan/produk, sampai ke halaman checkout pembayaran.
+             Fokus utama desain ini adalah bikin tampilan yang clean, simpel, dan pastinya gampang dipakai.
+          </p>
+          <a href="404.html" target="_blank" rel="noopener noreferrer">Lihat Demo <i class="fas fa-external-link-alt"></i></a>
+        </div>
+
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop" alt="Screenshot PMB Politeknik IDN" class="project-image-placeholder">
+          <h3>E-Employee IDN</h3>
+          <p>
+            Ini adalah sebuah sistem manajemen karyawan internal berbasis web yang fungsinya khusus untuk mengelola data kehadiran (absensi), pengajuan cuti, dan informasi staf/karyawan di lingkungan IDN Boarding School.
+          </p>
+          <a href="404.html" target="_blank" rel="noopener noreferrer">Lihat Demo <i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-contact" id="kontak">
+      <h2 class="section-title">KONTAK</h2>
+      <p class="footer-desc">Punya ide proyek yang menarik atau sekadar ingin berdiskusi seputar web development?
+         Mari terhubung! Jangan ragu untuk menyapa saya melalui platform di bawah ini.</p>
+      <div class="footer-socials">
+        <a href="https://instagram.com/paiii.24" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/SIRR-P" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      <p class="copyright"> Muhammad Fakhri Fadhlurahman/202443501120/TeknikInformatikaUNINDRA</p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
